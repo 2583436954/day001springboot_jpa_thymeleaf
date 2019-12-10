@@ -73,4 +73,16 @@ public class UserController {
         return "redirect:/manageruser/";
 
     }
+
+    /***
+       * 删除指定id用户
+     * @param id
+     * @return
+     */
+    @GetMapping("/wqeqe/{id}")
+    public String deleteUser2(@PathVariable("id") Long id) {
+        userService.deleteUser(id);
+        return "redirect:/manageruser/";
+
+    }
 }
