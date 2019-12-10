@@ -77,4 +77,8 @@ public class UserController {
     public String hhh(){
         return "ahhaha";
     }
+    @RequestMapping("/hhh")
+    public String hhh2(){
+        return "ahhaha";
+    }
 }
