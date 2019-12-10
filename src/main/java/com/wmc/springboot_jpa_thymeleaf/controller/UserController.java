@@ -73,8 +73,8 @@ public class UserController {
         return "redirect:/manageruser/";
 
     }
-    @RequestMapping("/hhh")
-    public String hhh(){
+    @RequestMapping("/hhh2")
+    public String hhh2(){
         return "ahhaha";
     }
 }
